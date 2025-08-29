@@ -7,7 +7,7 @@ int main() {
     char continuar = 'Y';
     while (continuar == 'Y' || continuar == 'y') {
         printf("------ Renato Bressan Calculator | Version 4.0 ------\n");
-        printf("Avaliable operations: '+' (add), '-' (subtraction), '*' (multiply), '/' (divide), '^' (power of)\n");
+        printf("Avaliable operations: '+' (add), '-' (subtract), '*' (multiply), '/' (divide), '^' (power of)\n");
         printf("Enter the first number, the arithmetic operator and the second number: ");
         scanf("%f %c %f", &num1, &operador, &num2);
         switch (operador) {
@@ -44,5 +44,6 @@ int main() {
     return 0;
 
 }
+
 
 
