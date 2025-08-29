@@ -33,7 +33,7 @@ int main() {
             default:
                 printf("Invalid operator\n");
         }
-        printf("Enter 'Y' to continue or 'N' to exit: ");
+        printf("Enter 'Y' ('Yes') to continue or 'N' ('No') to exit: ");
         scanf(" %c", &continuar);
         while (continuar != 'Y' && continuar != 'y' && continuar != 'N' && continuar != 'n') {
             printf("Error, please enter 'Y' ('Yes') to continue or 'N' ('No') to exit: ");
@@ -44,4 +44,5 @@ int main() {
     return 0;
 
 }
+
 
