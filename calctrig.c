@@ -16,14 +16,14 @@ int main() {
         scanf("%d", &opt);
         switch(opt) {
             case 0:
-                printf("%.3f\n", sin(x * PI / 180));
+                printf("The sine is: %.3f\n", sin(x * PI / 180));
                 break;
             case 1:
-                printf("%.3f\n", cos(x * PI / 180));
+                printf("The cosine is: %.3f\n", cos(x * PI / 180));
                 break;
             case 2:
                 if (x != 90 && x != 270) {
-                    printf("%.3f\n", tan(x * PI / 180));
+                    printf("The tangent is: %.3f\n", tan(x * PI / 180));
                     break;
                 } else if (x == 90 || x == 270) {
                     printf("Error. There's a divison by zero:\n");
@@ -37,4 +37,5 @@ int main() {
         }
     } while (opt != 0 && opt != 1 && opt != 2);
     return 0;
+
 }
