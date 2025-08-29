@@ -36,7 +36,7 @@ int main() {
         printf("Enter 'Y' to continue or 'N' to exit: ");
         scanf(" %c", &continuar);
         while (continuar != 'Y' && continuar != 'y' && continuar != 'N' && continuar != 'n') {
-            printf("Error, please enter 'Y' to continue or 'N' to exit: ");
+            printf("Error, please enter 'Y' ('Yes') to continue or 'N' ('No') to exit: ");
             scanf(" %c", &continuar);
         } 
     } 
@@ -44,3 +44,4 @@ int main() {
     return 0;
 
 }
+
