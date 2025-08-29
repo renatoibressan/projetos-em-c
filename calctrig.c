@@ -38,4 +38,3 @@ int main() {
     } while (opt != 0 && opt != 1 && opt != 2);
     return 0;
 }
-
