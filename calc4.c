@@ -31,7 +31,7 @@ int main() {
                 printf("Result: %.2f\n", pow(num1, num2));
                 break;
             default:
-                printf("Invalid operator\n");
+                printf("Invalid number(s) or operator\n");
         }
         printf("Enter 'Y' ('Yes') to continue or 'N' ('No') to exit: ");
         scanf(" %c", &continuar);
@@ -43,3 +43,4 @@ int main() {
     printf("Thanks for using the calculator!\n");
     return 0;
 }
+
