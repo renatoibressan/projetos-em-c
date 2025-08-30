@@ -19,9 +19,9 @@ int main() {
     // calcula o valor de delta;
     delta = pow(b, 2) - 4 * a * c;
     // calcula o valor de x1;
-    x1 = (-b + sqrt(delta))/2;
+    x1 = (-b + sqrt(delta))/2 * a;
     // calcula o valor de x2;
-    x2 = (-b - sqrt(delta))/2;
+    x2 = (-b - sqrt(delta))/2 * a;
     printf("Os valores possiveis pra x sao: %.2f e %.2f\n", x1, x2);
 
     // calcula o valor de y1;
@@ -31,4 +31,5 @@ int main() {
     printf("Os valores possiveis pra y sao: %.2f e %.2f\n", y1, y2);
 
     return 0;
+
 }
